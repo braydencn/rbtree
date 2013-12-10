@@ -1,4 +1,4 @@
-/* Copyright(c) 2013 Brayden Zhang. All right reserved.
+/* Copyright(c) 2013 Brayden Zhang. 
  * Mail: pczhang2010@gmail.com
  */
 

@@ -1,4 +1,4 @@
-/* Copyright(c) 2013 Brayden Zhang. All right reserved.
+/* Copyright(c) 2013 Brayden Zhang.
  * Mail: pczhang2010@gmail.com
  */
 
@@ -53,6 +53,10 @@ rbt_node_t*
 rbt_new_node(int k)
 {
 	rbt_node_t* n = (rbt_node_t*) malloc(sizeof(rbt_node_t));
+	if(n == NULL){
+		fprintf(stderr, "failed to allocate memory.\n");
+		exit(-1);
+	}
 	n->k = k;
 	n->c = RED;
 	n->l = n->r = n->p = NULL;
