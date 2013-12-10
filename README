@@ -1,0 +1,6 @@
+Auther: Brayden Zhang. pczhang2010@gmail.com
+Dec 10th. 2013
+
+Just another red black tree. The tree node insert/delete implementation is located in rbt.c file. Some testcases are setup in rbt_test.c.
+
+To run the test, try with 'gcc -o rbt rbt.c rbt_test.c && ./rbt'. This will create trees with 100 random numbers; then delete node from root/max node/min node/child of root. It will check all the red-black tree rules after each insert/delete. The test will be repeated for 10000 times.
