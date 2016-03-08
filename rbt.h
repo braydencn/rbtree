@@ -1,4 +1,5 @@
-/* Copyright(c) 2013 Brayden Zhang. 
+/* 
+ * Copyright(c) 2013 Brayden Zhang. 
  * Mail: pczhang2010@gmail.com
  */
 
@@ -23,9 +24,7 @@ typedef struct rbt_node
 {
 	int k;
 	rbt_color_t c;
-	struct rbt_node* l;
-	struct rbt_node* r;
-	struct rbt_node* p;
+	struct rbt_node *l, *r, *p;
 } rbt_node_t;
 
 rbt_node_t* rbt_search(rbt_node_t* r, int k);
